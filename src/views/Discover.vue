@@ -65,6 +65,7 @@ onMounted(() => {
         white-space nowrap
         text-overflow ellipsis
         text-align left
+        padding-left 10px
 
         .title {
             font-size 18px
