@@ -3,11 +3,7 @@
         <CustomInput
             :placeholder="'搜索MV'"
             :value="searchValue"
-            @search="
-                (value) => {
-                    searchValue = value;
-                }
-            "
+            @search="(value) => { searchValue = value; }"
         />
     </div>
     <div id="mvs">
